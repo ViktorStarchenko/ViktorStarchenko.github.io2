@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.menu {
+  margin-right: 300px; }
+
+.left {
+  background: black;
+  height: 400px; }
+ .right {
+ 	height: 500px;
+ 	background-color: red;
+ }

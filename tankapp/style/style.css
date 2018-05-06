@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|Lato|Roboto+Condensed:300,400,700");
+body {
+  font-family: 'Lato';
+  color: #707781; }
+  body h1 h2 h3 h4 h5 h6 {
+    font-family: 'Roboto Condensed'; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.nav-item.active {
+  color: black; }
+
+.tada :hover {
+  background: #5a5a5a; }
+
+.content-left {
+  justify-content: center;
+  align-items: center; }
+
+.navigation {
+  max-width: 1500px;
+  margin: auto; }
+
+.track {
+  max-width: 1500px;
+  margin: auto;
+  background-color: #67addd;
+  background-repeat: no-repeat;
+  box-sizing: content-box; }
+
+.social {
+  width: 100%;
+  background-color: brown; }
+
+.track-left::before {
+  content: url(/img/App-Shape-153.png); }
+
+.track__text {
+  width: 81%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 149px 0; }
+  @media screen and (max-width: 576px) {
+    .track__text {
+      padding: 120px 0 72px; } }
+  .track__text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase; }
+    @media screen and (max-width: 768px) {
+      .track__text h1 {
+        text-align: center;
+        margin-bottom: 70px; } }
+  .track__text p {
+    color: white; }
+    @media screen and (max-width: 768px) {
+      .track__text p {
+        text-align: center; } }
+  .track__text button {
+    margin-left: 30px;
+    margin-bottom: 13px; }
+
+.tarck__sing-up {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  @media screen and (max-width: 768px) {
+    .tarck__sing-up {
+      justify-content: center; } }
+  .tarck__sing-up h2 {
+    margin-left: 29px;
+    margin-bottom: 15px;
+    width: 64px;
+    height: 29px;
+    font-size: 18px; }
+
+.track__form {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  @media screen and (max-width: 992px) {
+    .track__form input {
+      margin-top: 30px; } }
+
+.collapse {
+  justify-content: flex-end; }
+
+.track__iphone {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.track__iphone-image {
+  padding-top: 93px; }
+  @media screen and (max-width: 576px) {
+    .track__iphone-image {
+      padding-top: 0; } }
+
+.clients {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin: auto;
+  padding: 60px 0;
+  background-color: #f3f3f0; }
+
+.clients__items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.clients__items-img {
+  margin: 20px 0; }
+
+.why-us {
+  max-width: 1500px;
+  margin: auto;
+  padding: 70px 0; }
+  @media screen and (max-width: 768px) {
+    .why-us h1 {
+      margin-bottom: 56px; } }
+
+.why-us__macbook-img {
+  padding-top: 80px; }
+
+.why-us__advantages {
+  margin: auto; }
+
+.why-us__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 768px) {
+    .why-us__text {
+      margin-bottom: 30px; } }
+  .why-us__text h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #42604a;
+    font-weight: 800; }
+    @media screen and (max-width: 768px) {
+      .why-us__text h2 {
+        margin-top: 16px; } }
+  .why-us__text p {
+    font-size: 14px;
+    color: #9ca1a9; }
+  .why-us__text img {
+    margin-right: 20px; }
+
+.different {
+  max-width: 1500px;
+  margin: auto;
+  background-color: #e1e1e1;
+  background-image: url("img/Layer 23.png");
+  padding: 40px 0; }
+
+.different-inner {
+  margin: auto; }
+  .different-inner h1 {
+    text-decoration: uppercase;
+    color: #414c5d;
+    padding: 50px 0; }
+    @media screen and (max-width: 768px) {
+      .different-inner h1 {
+        text-align: center; } }
+
+.different__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 30px 0; }
+  .different__text img {
+    margin-right: 30px; }
+  .different__text h2 {
+    font-size: 28px;
+    color: #5d6674;
+    letter-spacing: 1px; }
+    @media screen and (max-width: 768px) {
+      .different__text h2 {
+        text-align: center;
+        margin-top: 26px; } }
+  .different__text p {
+    font-size: 16px;
+    color: #717781;
+    line-height: 38px;
+    padding-top: 20px; }
+    @media screen and (max-width: 768px) {
+      .different__text p {
+        text-align: center; } }
+
+@media screen and (max-width: 768px) {
+  .pagination {
+    justify-content: center; } }
+
+.sign-up {
+  max-width: 1500px;
+  margin: auto;
+  padding: 70px 0; }
+  .sign-up h1 {
+    text-decoration: uppercase;
+    color: #414c5d;
+    padding: 50px 0;
+    font-weight: 800; }
+  .sign-up h2 {
+    font-size: 28px;
+    color: #414c5d;
+    letter-spacing: 1px; }
+
+.sign-up__form {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  @media screen and (max-width: 768px) {
+    .sign-up__form {
+      flex-direction: column; } }
+  @media screen and (max-width: 768px) {
+    .sign-up__form input {
+      width: 100%;
+      font-size: 16px;
+      text-indent: 5px;
+      margin-top: 30px; } }
+
+.sign-up__email {
+  width: 70%;
+  height: 68px;
+  text-indent: 30px;
+  font-size: 25px; }
+  .sign-up__email ::before {
+    content: url(/img/App-Shape-153.png); }
+
+.sign-up__submit {
+  width: 22%;
+  height: 68px; }
+
+footer {
+  max-width: 1500px;
+  margin: auto;
+  background-color: #e1e1e1;
+  padding: 50px 0; }
+
+.footer__navbar {
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 768px) {
+    .footer__navbar {
+      flex-direction: column;
+      align-items: center; } }
+
+@media screen and (max-width: 768px) {
+  .footer__navbar-icons {
+    flex-direction: row;
+    width: 40%;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px; } }
+
+@media screen and (max-width: 768px) {
+  #footer-logo {
+    margin-bottom: 40px; } }
